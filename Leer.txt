@@ -1,0 +1,28 @@
+npm init 
+npm install --save-dev html-loader   
+npm install webpack webpack-cli --save-dev
+
+compila 
+npm run build
+
+instala servidor web
+npm i --save-dev webpack-dev-server
+
+para usar estilos css
+npm install --save-dev css-loader style-loader
+npm install --save-dev mini-css-extract-plugin
+
+para poder importar imagenes
+ npm install file-loader --save-dev
+
+ npm install copy-webpack-plugin --save-dev
+
+ npm i -D css-minimizer-webpack-plugin terser-webpack-plugin
+
+compatibilidad babel
+ npm install --save-dev babel-loader @babel/core
+
+ npm install @babel/preset-env --save-dev
+
+para instalar todos los paquetes de node configurados en el packaje.json
+ npm install

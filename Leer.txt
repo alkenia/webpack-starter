@@ -26,3 +26,10 @@ compatibilidad babel
 
 para instalar todos los paquetes de node configurados en el packaje.json
  npm install
+
+
+crear fotografia de proyecto
+git add .
+git commit -m "Primer Comit"
+
+para reconstruir el proyecto git checkout -- .
